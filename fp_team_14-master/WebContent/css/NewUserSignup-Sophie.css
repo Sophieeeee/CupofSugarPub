@@ -1,0 +1,204 @@
+@CHARSET "UTF-8";
+@CHARSET "UTF-8";
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #2EC4B6;
+   background-image: url('../images/NewUser.jpg');
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin  {
+  margin-bottom: 10px;
+
+ text-align:center;
+
+}
+.form-signin {
+  font-weight: normal;
+  
+}
+.form-signin .form-control {
+  position: auto;
+  height: 30px;
+  width:329px;
+  margin-top:10px;
+  margin-bottom:10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+   border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+ border-color: #f2dbb1;
+ background-color:rgba(234, 210, 171, 0.86);
+}
+h2 {
+    font-size: 30px;
+    
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+  text-alignment: center;
+  box-alignment:center;
+}
+.form-signin input[type="username"] {
+  margin-bottom: -1px;
+   border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+   border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-color: #f2dbb1;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom:10px;
+    margin-top:100px;
+    margin-right: 0;
+    margin-left: 0;
+   
+    background-color: transparent;
+    
+}
+.error{
+	text-align: center;
+	color:red;
+	font-size: 10px;
+}
+.title{
+	padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom:5px;
+    padding-top:0;
+    margin-top:0;
+    height:70px;
+    background-color: transparent;
+    text-align:center;
+	 font-size: 70px;
+}
+.switchbutton{
+	padding-top:5px;
+	padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom:5px;
+    margin-top:0;
+    height:40px;
+    background-color: #a0f3e8;
+   font-size:25px;
+   
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: rgba(175, 91, 46, 0.82);
+    border-color: #2e6da4;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-top:10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width:330px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+
+.onoffswitch {
+    position: relative; width: 105px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    margin-left:115px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "Customer";
+  	text-algin:left;
+  	padding-right:16px;
+    background-color: #6f842f; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "Shopper";
+    padding-right: 10px;
+    background-color: #b85b35; color: #FFFFFF;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 13px; margin: 8.5px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 68px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+.twobutton{
+	margin-top:90px;
+}

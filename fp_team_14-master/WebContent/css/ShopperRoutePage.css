@@ -1,0 +1,145 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 50%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      #floating-panel {
+        position: absolute;
+        top: 10px;
+        left: 25%;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+        text-align: center;
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+      }
+input[type="checkbox"] {
+    display:none;
+    margin-top:2px;
+}
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+   	border: 5px solid #b76a02;
+    cursor:pointer;
+    -moz-border-radius:  50%;
+    border-radius:  50%;
+    margin-top:2px;
+   
+}
+input[type="checkbox"]:checked + label span {
+     background: #e88f00 ;
+     margin-top:2px;
+}
+#deliveryid{
+	color: #daa649;
+	font-size: 20px;
+	
+}
+#deliveryConfirmation1{
+	margin-top:5px;
+}
+#feedback{
+	text-align:left;
+	margin-left:18%;
+	margin-top:3%;
+}
+#hasNotDeliveredFeedback{
+	
+}
+.form-control {
+  position: auto;
+  height: 50px;
+  width:329px;
+  margin-top:10px;
+  margin-bottom:10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+  border-style: double;
+  border-color: green;
+  border-width:1px;
+}
+
+.form-control:focus {
+  z-index: 2;
+  text-alignment: center;
+  box-alignment:center;
+}
+
+.secondform-control {
+  position: auto;
+  height: 50px;
+  width:329px;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:30%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+  border-style: double;
+  border-color: green;
+  border-width:1px;
+}
+
+.secondform-control:focus {
+  z-index: 2;
+  text-alignment: center;
+  box-alignment:center;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+       width: 335px;
+    margin-top: 100px;
+    margin-left: -335px;
+}

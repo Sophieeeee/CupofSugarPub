@@ -1,0 +1,87 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+}
+/*Top part with title and shopping cart*/
+#headerbar{
+	background-color: rgb(155,255,215);
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#logo{
+	height: 60px;
+	width: auto;
+	float: left;
+	margin-left: 50px;
+}
+#headerbar h1{
+	display: inline-block;
+	font: 50px Arial, Tahoma;
+	font-style: italic;
+	margin: 0px;
+}
+#shoppingCart{
+	float: right;
+	margin-right: 20px;
+	background-color: transparent;
+	border: none;
+}
+#shoppingCart img{
+	height: 50px;
+	width: auto;
+}
+
+/*Sidebar with profile page, money, and logout button*/
+#sidebar{
+	background-color: rgb(155,255,215);
+	height: 100%;
+	width: 150px;
+	text-align: center;
+	float: left;
+}
+#sidebar button{
+	border: none;
+	background-color: transparent;
+}
+#sidebar #logout{
+	margin-top: 420%;
+}
+#sidebar img{
+	height: 50px;
+	width: auto;
+}
+
+/*Main section which changes for each page*/
+#customerHomepage{
+	background-color: rgb(220,226,224);
+	text-align: center;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+#categories img{
+ 	height: 100px;
+ 	width: auto;
+}
+#categories button{
+	height: 200px;
+ 	width: 200px;
+ 	border-radius: 50%;
+ 	border: 1px;
+ 	margin: 100px;
+}
+#categories{
+	margin-right: 6%;
+}
+#grocery{
+	background-color: rgb(20,122,32);
+}
+#health{
+	background-color: rgb(191,40,40);
+}
+

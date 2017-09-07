@@ -1,0 +1,378 @@
+@CHARSET "UTF-8";
+
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+	background-image:url('../images/lemon.png');
+	
+	
+}
+/*Top part with title and shopping cart*/
+#headerbar{
+	
+
+	background-image:url('../images/lemon.png');
+	color:white;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#title{
+	
+}
+#choosetime{
+	color:#d8a44b;
+	
+}
+
+#logo{
+	height: 60px;
+	width: auto;
+	float: left;
+	margin-left: 50px;
+}
+#headerbar h1{
+	display: inline-block;
+	font: 50px Arial, Tahoma;
+	font-style: italic;
+	margin: 0px;
+}
+#shoppingCart{
+	float: right;
+	margin-right: 20px;
+	background-color: transparent;
+	border: none;
+}
+#shoppingCart img{
+	height: 50px;
+	width: auto;
+}
+
+/*Sidebar with profile page, money, and logout button*/
+#sidebar{
+	
+	height: 100%;
+	width: 150px;
+	text-align: center;
+	float: left;
+	background-image:url('../images/lemon.png');
+}
+#sidebar button{
+	border: none;
+	background-color: transparent;
+	margin-top: 10px;
+}
+#sidebar #logout{
+	margin-top: 420%;
+}
+#sidebar img{
+	height: 80px;
+	width: auto;
+	margin-top:50%;
+}
+
+/*Main section which changes for each page*/
+#customerHomepage{
+	background-color: rgb(220,226,224);
+	text-align: center;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+#categories img{
+ 	height: 100px;
+ 	width: auto;
+}
+#categories button{
+	height: 200px;
+ 	width: 200px;
+ 	border-radius: 50%;
+ 	border: 1px;
+ 	margin: 100px;
+}
+#categories{
+	margin-right: 6%;
+}
+#grocery{
+	background-color: rgb(20,122,32);
+}
+#health{
+	background-color: rgb(191,40,40);
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.styled-select {
+  
+   height: 29px;
+   overflow: hidden;
+   width: 50%;
+   color:#daa649;
+   margin-left:20%;
+   margin-top:10%;
+   font-size:20px;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+   color:#008080;
+}
+
+.styled-select.slate {
+   background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+   height: 34px;
+   width: 240px;
+}
+
+.styled-select.slate select {
+   border: 1px solid #ccc;
+   font-size: 16px;
+   height: 34px;
+   width: 268px;
+}
+
+/* -------------------- Rounded Corners */
+.rounded {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+}
+
+.semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   border-color:#3e2a17;
+}
+
+/* -------------------- Colors: Background */
+.slate   { background-color: #ddd; }
+.green   { background-color: #779126; }
+.blue    { background-color: rgba(128, 95, 64, 0.88); }
+.yellow  { background-color: #eec111; }
+.black   { background-color: #000; }
+
+/* -------------------- Colors: Text */
+.slate select   { color: #000; }
+.green select   { color: #fff; }
+.blue select    { color: #fff; }
+.yellow select  { color: #000; }
+.black select   { color: #fff; }
+
+
+/* -------------------- Select Box Styles: danielneumann.com Method */
+/* -------------------- Source: http://danielneumann.com/blog/how-to-style-dropdown-with-css-only/ */
+#mainselection select {
+   border: 0;
+   color: #EEE;
+   background: transparent;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 2px 10px;
+   width: 378px;
+   *width: 350px;
+   *background: #58B14C;
+   -webkit-appearance: none;
+   
+}
+
+#mainselection {
+   overflow:hidden;
+   width:350px;
+   -moz-border-radius: 9px 9px 9px 9px;
+   -webkit-border-radius: 9px 9px 9px 9px;
+   border-radius: 9px 9px 9px 9px;
+  
+   box-shadow: 1px 1px 11px #330033;
+   background: #58B14C url("http://i62.tinypic.com/15xvbd5.png") no-repeat scroll 319px center;
+}
+
+
+/* -------------------- Select Box Styles: stackoverflow.com Method */
+/* -------------------- Source: http://stackoverflow.com/a/5809186 */
+select#soflow, select#soflow-color {
+   -webkit-appearance: button;
+   -webkit-border-radius: 2px;
+   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+   -webkit-padding-end: 20px;
+   -webkit-padding-start: 2px;
+   -webkit-user-select: none;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+   background-position: 97% center;
+   background-repeat: no-repeat;
+   border: 1px solid #AAA;
+   color: #555;
+   font-size: inherit;
+   margin: 20px;
+   overflow: hidden;
+   padding: 5px 10px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   width: 300px;
+   
+}
+
+select#soflow-color {
+   color: #fff;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#779126, #779126 40%, #779126);
+   background-color: #779126;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   padding-left: 15px;
+   
+}
+
+input[type="radio"] {
+    margin-top:2px;
+}
+input[type="radio"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+   	border: 3px solid #b76a02;
+    cursor:pointer;
+    -moz-border-radius:  50%;
+    border-radius:  50%;
+    margin-top:2px;
+   
+}
+input[type="radio"]:checked + label span {
+     background: #e88f00 ;
+     margin-top:2px;
+}
+.timeform{
+	margin-left:600px;
+	margin-top:2%;
+	
+}
+.btn-block {
+    display: block;
+    width: 25%;
+    margin-top:30px;
+}
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    margin-top:30px;
+}
+.btn-primary {
+    color: rgb(247, 189, 97);
+    background-color: rgba(180, 105, 5, 0.85);
+    border-color: #2e6da4;
+    margin-top:30px;
+}
+.btn {
+	margin-top:30px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    
+}
+
+
+.shopperbtn-block {
+	background-color: #008080;
+    display: block;
+    width: 25%;
+    margin-top:30px;
+    margin-left:20%;
+    color:white;
+}
+.shopperbtn-lg {
+	background-color: #008080;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    margin-top:30px;
+    margin-left:20%;
+     color:white;
+}
+.shopperbtn-primary {
+     color:white;
+    background-color: #008080;
+    border-color: #2e6da4;
+    margin-top:30px;
+    margin-left:20%;
+}
+.shopperbtn {
+	background-color: #008080;
+	margin-top:30px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left:20%;
+     color:white;
+    
+}
+.shadow{
+	background-color:rgba(0, 0, 0, 0.31);
+	padding-bottom: 540px;
+}
+.timelabel{
+	color:#daa649;
+	font-size:20px;
+}
+.error{
+	color: red;
+	font-size:20px;
+	margin-left: 500px;
+	    margin-top: 30px
+}
